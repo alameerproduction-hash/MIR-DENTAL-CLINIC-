@@ -1,0 +1,1387 @@
+# MIR DENTAL CARE
+
+## Premium Dental Clinic Website — Complete Project Transformation
+
+### 1. PROJECT OBJECTIVE
+
+Transform the existing dental clinic demo website into a world-class, premium website for **Mir Dental Care**, located in Model Town, Gujranwala, Pakistan.
+
+The project must follow the detailed component structure, visual hierarchy, animation quality, responsive behavior, and professional finishing of the supplied DENTORA website specification.
+
+However, this is NOT a website for DENTORA.
+
+The final brand must be exclusively:
+
+**MIR DENTAL CARE**
+
+The website must feel like a premium, custom-designed dental clinic website created by an experienced international web design agency.
+
+It must not look like a generic AI-generated template.
+
+### CRITICAL INSTRUCTIONS
+
+1. The existing website has already been created.
+2. Inspect the existing codebase before modifying anything.
+3. Preserve the strongest existing components and working functionality.
+4. Replace all DENTORA branding and fictional business information with Mir Dental Care information.
+5. Retain the sophisticated component structure and animation techniques described in this specification.
+6. Upgrade the website's visual quality, responsiveness, accessibility, and functionality.
+7. Do not merely provide instructions or example code. Implement the changes directly in the existing project.
+8. Do not unnecessarily rebuild the project or replace its technology stack.
+9. Never invent the clinic's doctors, qualifications, prices, opening hours, testimonials, awards, or medical credentials.
+10. Do not display fictional information as verified facts.
+
+The final result should be ready for a professional client demonstration.
+
+---
+
+# 2. VERIFIED BUSINESS INFORMATION
+
+Use the following business details throughout the website.
+
+Business Name: Mir Dental Care
+
+Business Category: Dental Clinic
+
+Google Rating: 5.0 / 5.0
+
+Google Reviews: 200
+
+Phone Number: 0339 3250240
+
+Location: Model Town Square Parade, Block B, Model Town, Gujranwala, Pakistan.
+
+Opening Information: The supplied business listing indicates that the clinic opens at 1:00 PM. It does not establish a complete weekly schedule.
+
+Phone Link:
+tel:03393250240
+
+WhatsApp Link:
+https://wa.me/923393250240
+
+Google Maps Search:
+https://www.google.com/maps/search/?api=1&query=Mir+Dental+Care+Model+Town+Square+Parade+Block+B+Model+Town+Gujranwala
+
+Use the exact business name and telephone number throughout the website.
+
+Display the rating as 5.0/5 based on 200 reviews, matching the supplied listing.
+
+Do not manufacture individual Google reviews or suggest that fictional testimonials are genuine patient feedback.
+
+---
+
+# 3. TECHNOLOGY AND EXISTING CODEBASE
+
+First inspect the existing application.
+
+Preferred technologies, when compatible with the existing project:
+
+* React
+* Vite
+* TypeScript
+* Tailwind CSS
+* Framer Motion or motion/react
+* shadcn/ui where appropriate
+* lucide-react icons
+
+If the existing website uses another working technology stack, preserve it unless a change is genuinely necessary.
+
+Do not introduce unnecessary dependencies.
+
+Use reusable components and maintain a clean project structure.
+
+If the project already has a backend, database, authentication, booking API, or administration dashboard, preserve the existing functionality and improve it where necessary.
+
+If a new backend is required, implement it using technologies compatible with the existing deployment environment.
+
+Do not claim that any backend functionality works unless it is actually implemented and tested.
+
+---
+
+# 4. DESIGN SYSTEM — PREMIUM DENTAL BLUE
+
+Create a sophisticated visual identity for Mir Dental Care.
+
+The overall design should combine a premium dental clinic atmosphere with a modern, elegant, technology-inspired interface.
+
+## Primary Color Palette
+
+Use these colors consistently:
+
+* Deep Navy: #081426
+* Midnight Blue: #10233D
+* Premium Dental Blue: #2878F0
+* Electric Blue Accent: #55A8FF
+* Baby Blue: #DFF1FF
+* Ice Blue: #F0F8FF
+* Pure White: #FFFFFF
+* Soft Grey: #F5F7FB
+* Border Grey: #DFE7F1
+* Muted Text: #78869A
+* Success Green: #22A06B
+* Rating Gold: #F5B82E
+
+Use subtle blue gradients, carefully controlled glass effects, elegant shadows, and soft lighting.
+
+Avoid excessive neon effects, oversaturated gradients, or distracting visual clutter.
+
+The design must communicate cleanliness, trust, professionalism, and comfort.
+
+## Section Color Rhythm
+
+Follow this visual sequence:
+
+1. Hero: Dark navy with premium dental photography.
+2. Progress bar: White.
+3. About and statistics: White.
+4. Services: Soft ice blue.
+5. Why Choose Us: White.
+6. Clinic experience and process: Dark navy.
+7. Google Reviews: White.
+8. Photo CTA: Full-width photography with dark overlay.
+9. FAQ: Soft ice blue.
+10. Final CTA: Premium dental blue.
+11. Footer: Deep navy.
+
+Maintain consistent spacing and color contrast.
+
+---
+
+# 5. TYPOGRAPHY
+
+Use Plus Jakarta Sans throughout the website.
+
+Import:
+
+https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap
+
+Typography rules:
+
+* Hero heading: Weight 800.
+* Section headings: Weight 700–800.
+* Card headings: Weight 700.
+* Body text: Weight 300–400.
+* Navigation: Weight 400–600.
+* Buttons: Weight 600–700.
+* Labels: Uppercase with elegant letter spacing.
+* Statistics: Bold, large, and visually distinctive.
+
+Use fluid typography with clamp() where appropriate.
+
+Avoid excessively small text, cramped paragraphs, and inconsistent font weights.
+
+All text must remain readable on mobile screens.
+
+---
+
+# 6. SQUIRCLE UI DESIGN SYSTEM
+
+Give the entire interface a cohesive, premium rounded-square design language.
+
+Use refined squircle-style containers for:
+
+* Brand icon.
+* Service icons.
+* Feature icons.
+* Contact icons.
+* Social media icons.
+* Dashboard navigation icons.
+* Statistics icons.
+* Image containers where appropriate.
+* Form controls.
+* Interactive interface elements.
+
+Use consistent corner radii throughout the interface.
+
+Buttons may use elegant pill-shaped designs, as specified in the original design system.
+
+The announcement bar and navigation container must also have refined corner treatments where their positioning permits.
+
+Avoid mixing unrelated icon styles.
+
+Use lucide-react icons where appropriate.
+
+Create a premium tooth-inspired logo for Mir Dental Care. If an official logo is available in the existing project, preserve and use it.
+
+---
+
+# 7. GLOBAL LAYOUT AND CENTERING
+
+Every major section must have a properly centered inner content container.
+
+Desktop:
+
+* Maximum content width: approximately 1200px.
+* Use margin-inline: auto.
+* Use consistent horizontal padding.
+* Maintain balanced whitespace.
+
+Tablet:
+
+* Reduce spacing proportionally.
+* Prevent content from becoming cramped.
+* Use two-column layouts where appropriate.
+
+Mobile:
+
+* Use approximately 24px horizontal padding.
+* Stack content logically.
+* Keep headings and buttons readable.
+* Prevent horizontal overflow.
+
+Full-width background images and background colors are permitted, but the content inside sections must remain properly aligned.
+
+Do not allow text or cards to stretch awkwardly across the screen.
+
+---
+
+# 8. COMPONENT 01 — NAVIGATION HEADER
+
+Create a premium navigation header positioned over the hero section.
+
+## Left Side
+
+Display:
+
+* Tooth-inspired logo in a rounded-square container.
+* Brand name: MIR DENTAL CARE.
+
+Use white branding over the dark hero background.
+
+## Desktop Navigation
+
+Include:
+
+* Home
+* About
+* Services
+* Reviews
+* Contact
+
+Each navigation item must scroll to its corresponding section.
+
+Use smooth scrolling and subtle hover effects.
+
+## Right Side
+
+Display:
+
+* Phone number: 0339 3250240.
+* A premium "Book Appointment" button.
+
+The phone number must open the device's telephone application when clicked.
+
+## Scroll Behavior
+
+Initially, the navigation should blend into the hero section.
+
+After scrolling, it may transition to a refined dark or white background with subtle blur and shadow.
+
+Keep the transition smooth and professional.
+
+## Mobile Navigation
+
+Create a responsive hamburger menu.
+
+When opened:
+
+* Display a premium navigation overlay.
+* Use accessible menu controls.
+* Keep all navigation links functional.
+* Close the menu after a navigation item is selected.
+* Prevent unwanted background scrolling.
+
+---
+
+# 9. COMPONENT 02 — PREMIUM HERO SECTION
+
+Create a visually impressive hero section with a minimum height of approximately 85–90vh on desktop.
+
+Use a high-quality, realistic dental clinic photograph.
+
+Preferred photography:
+
+* A clean, modern dental treatment room.
+* A dentist examining a patient.
+* Professional dental equipment.
+* Bright, welcoming clinical lighting.
+* A natural, trustworthy healthcare atmosphere.
+
+Do not depict a fictional person as the verified owner or dentist of the clinic.
+
+## Background Treatment
+
+Use a premium dark navy gradient overlay.
+
+The left side must remain dark enough for readable text.
+
+Allow the image to remain visible on the right.
+
+Add a subtle bottom gradient to transition into the next section.
+
+## Hero Badge
+
+Display:
+
+"TRUSTED DENTAL CARE · GUJRANWALA"
+
+Use a small premium pill with a blue accent.
+
+## Main Heading
+
+Use this exact heading:
+
+"Your Smile Deserves Exceptional Care."
+
+Emphasize "Exceptional Care" with a refined blue gradient or electric-blue accent.
+
+Use large, responsive typography.
+
+The heading should be visually striking without overwhelming the rest of the layout.
+
+## Supporting Text
+
+"Welcome to Mir Dental Care in Model Town, Gujranwala. Explore our clinic information, discover dental care options, and contact us to arrange your visit."
+
+## Trust Indicators
+
+Display three compact trust elements:
+
+1. 5.0 Google Rating
+2. 200 Google Reviews
+3. Model Town, Gujranwala
+
+These must be based on the supplied business information.
+
+## Primary CTA
+
+"Book an Appointment"
+
+Clicking it should scroll to the appointment inquiry section.
+
+## Secondary CTA
+
+"Call Mir Dental Care"
+
+Link:
+
+tel:03393250240
+
+## Service Tags
+
+Display visually elegant service-category tags where appropriate.
+
+Possible categories:
+
+* General Dental Care
+* Dental Checkups
+* Teeth Cleaning
+* Preventive Dental Care
+
+These categories must not be represented as verified treatments offered by the clinic unless confirmed.
+
+Use subtle entrance animations and responsive wrapping.
+
+---
+
+# 10. COMPONENT 03 — FOUR-STEP PROGRESS BAR
+
+Directly beneath the hero, create a premium four-step horizontal progress indicator.
+
+Use a white background with a subtle bottom border.
+
+Steps:
+
+1. Appointment Inquiry
+2. Clinic Consultation
+3. Care Planning
+4. Follow-Up Care
+
+These steps describe a general patient journey, not a guaranteed clinic-specific procedure.
+
+## Visual Design
+
+Each step should contain:
+
+* A number or small icon.
+* A concise label.
+* A subtle active-state indicator.
+
+Use premium blue for the active step.
+
+Inactive steps should use muted grey.
+
+Animate the active indicator smoothly when a user clicks a step.
+
+The progress bar can be informational and interactive without pretending that a patient's treatment has progressed through these stages.
+
+## Mobile Behavior
+
+Use a horizontally scrollable layout if necessary.
+
+Prevent the labels from overlapping.
+
+---
+
+# 11. COMPONENT 04 — ABOUT MIR DENTAL CARE
+
+Create a clean editorial-style About section on a white background.
+
+Section label:
+
+"ABOUT MIR DENTAL CARE"
+
+Heading:
+
+"Quality Dental Care Starts With Trust."
+
+Description:
+
+"Mir Dental Care is located at Model Town Square Parade, Block B, Model Town, Gujranwala. This website helps visitors explore clinic information, review the supplied Google rating, and contact the clinic to inquire about dental care and appointments."
+
+Use a professional image of a modern dental clinic interior.
+
+## Statistics Row
+
+Display:
+
+5.0 — Google Rating
+
+200 — Google Reviews
+
+1 — Gujranwala Clinic Location
+
+These statistics must accurately reflect the available business information.
+
+Do not replace them with fabricated satisfaction percentages, thousands of treated patients, or invented years of experience.
+
+## Animated Counters
+
+Use requestAnimationFrame or an equivalent animation technique.
+
+Trigger counters when the statistics enter the viewport.
+
+Animate smoothly over approximately 1,200–1,400 milliseconds.
+
+Respect reduced-motion accessibility preferences.
+
+## Clinic Information Card
+
+Display:
+
+Mir Dental Care
+
+Dental Clinic
+
+Model Town Square Parade, Block B Model Town, Gujranwala.
+
+0339 3250240
+
+5.0 rating · 200 Google Reviews
+
+Add functional buttons for calling and directions.
+
+Do not add a fictional dentist profile or fabricated clinic history.
+
+---
+
+# 12. COMPONENT 05 — DENTAL SERVICES GRID
+
+Create a premium services section with a soft ice-blue background.
+
+Section label:
+
+"DENTAL CARE"
+
+Heading:
+
+"Explore Dental Care Options."
+
+Supporting text:
+
+"Learn about common dental care categories and contact Mir Dental Care to confirm which treatments are available at the clinic."
+
+## Grid Layout
+
+Desktop: Three columns.
+
+Tablet: Two columns.
+
+Mobile: One column.
+
+Create six elegant service cards with consistent squircle details.
+
+Each card should include:
+
+* A realistic dental-related image.
+* A service-category icon.
+* A heading.
+* A short description.
+* A "Contact to Inquire" action.
+
+## Suggested Categories
+
+Card 1: General Dental Care
+
+Description:
+"General dental care focuses on maintaining oral health and addressing common dental concerns."
+
+Card 2: Dental Checkups
+
+Description:
+"Routine dental examinations can help identify oral health concerns and determine appropriate next steps."
+
+Card 3: Teeth Cleaning
+
+Description:
+"Professional dental cleaning may help remove plaque and tartar that regular brushing cannot fully address."
+
+Card 4: Cosmetic Dentistry
+
+Description:
+"Cosmetic dental procedures focus on the appearance of teeth and smiles. Ask the clinic about available options."
+
+Card 5: Tooth Restoration
+
+Description:
+"Restorative dentistry addresses damaged or missing tooth structure. Contact the clinic to discuss appropriate care."
+
+Card 6: Preventive Dental Care
+
+Description:
+"Preventive dental care supports oral hygiene and helps reduce the risk of common dental problems."
+
+IMPORTANT:
+
+These are general informational categories.
+
+Do not claim that Mir Dental Care offers every listed treatment unless confirmed.
+
+Do not display invented prices, dollar amounts, treatment guarantees, or unverified promotional discounts.
+
+Do not use fake before-and-after treatment results.
+
+## Card Animations
+
+On hover:
+
+* Translate the card upward by approximately 4–5px.
+* Add a subtle shadow.
+* Scale the inner image slightly.
+* Animate the arrow or action icon.
+* Maintain smooth transitions.
+
+Use lightweight animations that perform well on mobile devices.
+
+---
+
+# 13. COMPONENT 06 — WHY CHOOSE MIR DENTAL CARE
+
+Create a premium two-column section on a white background.
+
+Left side:
+
+Heading:
+
+"Your Comfort Matters."
+
+Description:
+
+"Finding a dental clinic should feel straightforward. Mir Dental Care's website provides essential clinic information, clear contact options, and an easy way to inquire about appointments."
+
+Create a checklist of practical website benefits:
+
+* Convenient clinic contact information.
+* Direct telephone calling.
+* Google Maps directions.
+* Appointment inquiry options.
+* Accessible clinic information.
+* Mobile-friendly browsing.
+
+Right side:
+
+Display a high-quality photograph of a clean, modern dental clinic.
+
+Do not make unsupported claims about:
+
+* Dentist qualifications.
+* Years of experience.
+* Advanced medical equipment.
+* Painless procedures.
+* Treatment success rates.
+* Emergency availability.
+* Insurance acceptance.
+* Guaranteed treatment outcomes.
+
+Add a premium CTA:
+
+"Contact the Clinic"
+
+Link to the contact section.
+
+---
+
+# 14. COMPONENT 07 — HOW IT WORKS
+
+Create a sophisticated dark navy section.
+
+Section label:
+
+"YOUR VISIT"
+
+Heading:
+
+"A Simple Way to Get Started."
+
+Display four process cards.
+
+## Step 01 — Get in Touch
+
+"Contact Mir Dental Care by telephone or use the appointment inquiry form to ask about a visit."
+
+## Step 02 — Confirm Availability
+
+"Contact the clinic to confirm its current opening hours, available appointment times, and any necessary arrangements."
+
+## Step 03 — Discuss Your Needs
+
+"Ask the clinic about the dental care you are interested in and the next steps for arranging a visit."
+
+## Step 04 — Follow the Clinic's Guidance
+
+"Follow the instructions provided by the clinic regarding your appointment and any recommended care."
+
+Each card should include:
+
+* A large, subtle step number.
+* A premium image.
+* A blue squircle icon.
+* A concise heading.
+* A short description.
+
+Use staggered entrance animations.
+
+Do not imply that an appointment is confirmed simply because an inquiry form has been submitted.
+
+---
+
+# 15. COMPONENT 08 — GOOGLE REVIEWS
+
+Create a dedicated reviews section on a white background.
+
+Section label:
+
+"PATIENT FEEDBACK"
+
+Heading:
+
+"Trusted by Google Reviewers."
+
+Supporting text:
+
+"Explore the clinic's Google listing and review information."
+
+## Main Rating Card
+
+Display prominently:
+
+5.0 / 5.0
+
+★★★★★
+
+200 Google Reviews
+
+Use gold stars and refined blue accents.
+
+These values are based on the business information supplied for the demo.
+
+## Review Button
+
+Label:
+
+"View Google Reviews"
+
+Link to a Google Maps search for Mir Dental Care in Gujranwala.
+
+## Review Integrity
+
+Do not create fake patient names.
+
+Do not invent review quotations.
+
+Do not use stock patient photographs alongside fabricated testimonials.
+
+Do not claim that 200 reviews have been individually verified by this website.
+
+If genuine review text is obtained from an appropriate source, display it only when its authenticity and permitted use can be established.
+
+Until then, use a premium aggregate rating card rather than fictional testimonials.
+
+---
+
+# 16. COMPONENT 09 — FULL-WIDTH PHOTO CTA
+
+Create a full-width photography banner approximately 300–360px high on desktop.
+
+Use a high-quality photograph of a welcoming dental clinic environment.
+
+Apply a dark navy gradient overlay to preserve text contrast.
+
+Heading:
+
+"Ready to Take the Next Step?"
+
+Supporting text:
+
+"Contact Mir Dental Care to ask about appointments and available dental care options."
+
+Buttons:
+
+Primary: "Book an Appointment"
+
+Secondary: "Call 0339 3250240"
+
+The primary button must scroll to the appointment form.
+
+The secondary button must open the telephone application.
+
+On mobile, stack the heading, description, and buttons vertically.
+
+Avoid fabricated claims about same-day appointments or guaranteed availability.
+
+---
+
+# 17. COMPONENT 10 — FREQUENTLY ASKED QUESTIONS
+
+Create a premium FAQ section with a soft ice-blue background.
+
+Use a centered content container with a maximum width of approximately 760px.
+
+Heading:
+
+"Frequently Asked Questions."
+
+Create an animated accordion.
+
+Each question must expand and collapse smoothly.
+
+Use accessible buttons, proper ARIA attributes, keyboard navigation, and clear focus states.
+
+## Q1. Where Is Mir Dental Care Located?
+
+Answer:
+
+"Mir Dental Care is listed at Model Town Square Parade, Block B, Model Town, Gujranwala, Pakistan."
+
+## Q2. How Can I Contact the Clinic?
+
+Answer:
+
+"You can call Mir Dental Care at 0339 3250240. The website also provides a WhatsApp inquiry option."
+
+## Q3. What Is the Clinic's Google Rating?
+
+Answer:
+
+"The supplied Google listing shows a rating of 5.0 out of 5, based on 200 reviews."
+
+## Q4. What Time Does the Clinic Open?
+
+Answer:
+
+"The supplied listing indicates that the clinic opens at 1:00 PM. Please contact the clinic to confirm the current opening hours and availability for your intended visit."
+
+## Q5. How Can I Request an Appointment?
+
+Answer:
+
+"Use the appointment inquiry form on this website or call the clinic directly. Your requested appointment must be confirmed by the clinic."
+
+## Q6. Which Dental Treatments Are Available?
+
+Answer:
+
+"Contact Mir Dental Care directly to confirm which dental treatments are currently available and whether they are appropriate for your needs."
+
+## Q7. How Can I Find Directions to the Clinic?
+
+Answer:
+
+"Use the Get Directions button to open Google Maps and search for Mir Dental Care at its listed Model Town address."
+
+Do not insert fabricated answers about insurance, payment plans, sedation, emergency treatment, or guaranteed appointment availability.
+
+---
+
+# 18. COMPONENT 11 — FINAL CALL TO ACTION
+
+Create a striking premium blue section near the bottom of the page.
+
+Use an elegant gradient from deep dental blue to electric blue.
+
+Heading:
+
+"Your Next Step Starts Here."
+
+Supporting text:
+
+"Contact Mir Dental Care to learn more about the clinic and inquire about an appointment."
+
+Primary button:
+
+"Request an Appointment"
+
+Secondary button:
+
+"Call the Clinic"
+
+Trust indicators:
+
+* 5.0 Google Rating.
+* 200 Google Reviews.
+* Model Town, Gujranwala.
+
+Use subtle entrance animations and refined typography.
+
+Ensure excellent contrast and readability.
+
+Do not advertise a free consultation, guaranteed treatment, or special offer unless verified by the clinic.
+
+---
+
+# 19. COMPONENT 12 — FOOTER
+
+Create a sophisticated deep navy footer.
+
+Use four columns on desktop.
+
+## Column 1 — Brand
+
+Display:
+
+MIR DENTAL CARE
+
+Tagline:
+
+"Your Smile Matters."
+
+Display the supplied telephone number:
+
+0339 3250240
+
+Add a telephone icon in a rounded-square container.
+
+## Column 2 — Navigation
+
+Include:
+
+* Home
+* About
+* Services
+* Reviews
+* Contact
+
+All links must work.
+
+## Column 3 — Contact
+
+Display:
+
+Mir Dental Care
+
+Model Town Square Parade,
+
+Block B, Model Town,
+
+Gujranwala, Pakistan.
+
+Phone:
+
+0339 3250240
+
+Add a Get Directions link.
+
+## Column 4 — Opening Information
+
+Heading:
+
+"CLINIC INFORMATION"
+
+Display:
+
+"Listed opening time: 1:00 PM."
+
+Add:
+
+"Please contact the clinic to confirm current opening hours."
+
+Do not invent weekday schedules or closing times.
+
+## Social Media
+
+If verified social media URLs are available in the existing project, preserve them.
+
+Otherwise, do not create fake accounts or broken social media links.
+
+## Footer Bottom
+
+Display:
+
+"© 2026 Mir Dental Care. All rights reserved."
+
+Add functional Privacy Policy and Terms links only if corresponding pages or sections exist.
+
+Keep the footer clean, accessible, and responsive.
+
+---
+
+# 20. APPOINTMENT BOOKING SYSTEM
+
+Implement a functional appointment inquiry form.
+
+Heading:
+
+"Request an Appointment"
+
+Supporting text:
+
+"Share your preferred appointment details and contact information. The clinic must confirm your appointment."
+
+## Form Fields
+
+1. Patient Name.
+2. Phone Number.
+3. Preferred Date.
+4. Preferred Time.
+5. Service of Interest.
+6. Additional Message.
+
+Mark required fields clearly.
+
+Validate the input.
+
+Use appropriate date constraints.
+
+Provide helpful error messages.
+
+Prevent accidental duplicate submissions.
+
+Display a clear success state only after the request has actually been accepted by the implemented form submission process.
+
+## Important Booking Rules
+
+A submitted inquiry is not a confirmed appointment.
+
+Do not show fictional available time slots as real clinic availability.
+
+Do not claim that an appointment is booked unless the system has successfully stored the request and the applicable booking rules have been satisfied.
+
+If the project already contains an appointment backend, integrate the form with it.
+
+If no backend exists, implement a real submission workflow appropriate to the existing project or clearly provide a telephone/WhatsApp inquiry fallback.
+
+Do not expose database credentials or private API keys in frontend code.
+
+Avoid collecting unnecessary sensitive medical information.
+
+---
+
+# 21. WHATSAPP INTEGRATION
+
+Add a floating WhatsApp button.
+
+Use this link:
+
+https://wa.me/923393250240
+
+Prefilled message:
+
+"Hello Mir Dental Care, I would like to inquire about an appointment."
+
+Requirements:
+
+* Fixed position near the lower-right corner.
+* Clear visibility without obstructing important content.
+* Premium squircle-style icon container.
+* Accessible label.
+* Responsive sizing.
+* Smooth hover effect.
+* Proper spacing from mobile screen edges.
+
+Ensure that the WhatsApp button does not cover form controls, cookie notices, or important navigation elements.
+
+---
+
+# 22. ADMIN DASHBOARD
+
+If an administration dashboard already exists in the project, preserve it and upgrade its design.
+
+If an admin dashboard is part of the existing project requirements, implement a secure and functional administration interface.
+
+## Dashboard Design
+
+Use:
+
+* Deep navy sidebar.
+* White or soft-grey content panels.
+* Premium blue accents.
+* Squircle navigation icons.
+* Rounded dashboard cards.
+* Smooth but restrained transitions.
+* Responsive mobile layout.
+
+Dashboard sections should include:
+
+1. Overview.
+2. Appointment Requests.
+3. Contact Inquiries.
+4. Services.
+5. Clinic Information.
+6. Reviews Link and Rating Display.
+7. Website Content.
+8. Account Settings.
+9. Logout.
+
+## Overview Cards
+
+Display real data from the backend, where available.
+
+Examples:
+
+* Total appointment inquiries.
+* Pending requests.
+* Confirmed appointments.
+* Contact messages.
+
+If no real data exists, display a clear empty state rather than fabricated activity.
+
+## Appointment Management
+
+Administrators should be able to:
+
+* View appointment requests.
+* Review submitted information.
+* Update request status.
+* Mark requests as confirmed only after confirmation.
+* Cancel requests where appropriate.
+* Remove inappropriate test records where authorized.
+
+Persist changes using the actual backend.
+
+## Authentication and Security
+
+Implement proper authentication if an admin system is required.
+
+Requirements:
+
+* Secure password hashing.
+* Server-side authorization.
+* Protected administration APIs.
+* Secure session handling or an appropriate token-based authentication system.
+* Input validation.
+* Protection against unauthorized modifications.
+* No hardcoded production passwords.
+* No database credentials exposed to the browser.
+
+Use environment variables for secrets.
+
+Do not create a decorative admin panel that appears functional but does not save or retrieve data.
+
+Do not claim authentication or data persistence works until tested.
+
+---
+
+# 23. ANIMATION SYSTEM
+
+Use Framer Motion or the animation library already present in the project.
+
+Animations should be smooth, lightweight, and consistent.
+
+## Hero
+
+* Badge: Fade and slide upward.
+* Heading: Staggered word entrance.
+* Description: Delayed fade-up.
+* CTA buttons: Subtle entrance animation.
+* Trust indicators: Staggered appearance.
+
+## Navigation
+
+* Smooth background transition on scroll.
+* Subtle button hover states.
+* Animated mobile menu.
+
+## Statistics
+
+* Trigger counters using IntersectionObserver.
+* Run each counter once.
+* Use a duration of approximately 1,400ms.
+
+## Service Cards
+
+* Staggered entrance on scroll.
+* Slight upward movement on hover.
+* Gentle image scaling.
+* Smooth shadow transition.
+
+## Process Cards
+
+* Staggered fade-up.
+* Subtle icon animation.
+* Avoid excessive continuous motion.
+
+## Google Reviews
+
+* Smooth entrance.
+* Elegant star appearance.
+* Clear rating presentation.
+
+## FAQ
+
+* Smooth accordion expansion.
+* Animated chevron rotation.
+* Accessible keyboard interactions.
+
+## Buttons
+
+* Subtle hover transitions.
+* Slight movement where appropriate.
+* Clear pressed and focus states.
+
+## Motion Accessibility
+
+Respect prefers-reduced-motion.
+
+Do not force large animations on users who prefer reduced motion.
+
+Avoid animation libraries or effects that create significant layout shifts.
+
+---
+
+# 24. RESPONSIVE DESIGN
+
+The website must work exceptionally well on desktop, tablet, and mobile.
+
+## Desktop
+
+* Full navigation.
+* Large hero photography.
+* Three-column services grid.
+* Two-column About section.
+* Four-column process section.
+* Three-column review layout where genuine review content is available.
+* Four-column footer.
+
+## Tablet
+
+* Smaller hero typography.
+* Two-column service cards.
+* Balanced spacing.
+* Responsive navigation.
+* Two-column process cards.
+* Footer arranged in two columns.
+
+## Mobile
+
+* Compact navigation with hamburger menu.
+* Hero section approximately 80vh where appropriate.
+* Readable heading sizes.
+* Stacked hero buttons.
+* Properly wrapped service tags.
+* Horizontally scrollable progress bar.
+* Two-column statistics where space permits.
+* One-column service cards.
+* One-column process cards.
+* Single-column FAQ.
+* Stacked footer.
+* Floating WhatsApp button positioned safely.
+* Full-width form controls where appropriate.
+
+Use responsive CSS rather than simply shrinking the desktop layout.
+
+Test at common mobile widths.
+
+Prevent:
+
+* Horizontal scrolling.
+* Overlapping headings.
+* Clipped buttons.
+* Broken navigation.
+* Overflowing cards.
+* Text extending beyond containers.
+* Excessive page loading times.
+
+---
+
+# 25. IMAGE QUALITY AND FALLBACKS
+
+Use realistic, professional dental imagery.
+
+Preferred visual subjects:
+
+* Modern dental treatment rooms.
+* Dental instruments.
+* Clean clinical environments.
+* Dentist-patient consultations.
+* Professional oral-care imagery.
+
+Images must have appropriate aspect ratios and responsive cropping.
+
+Use object-fit: cover where appropriate.
+
+Lazy-load below-the-fold images.
+
+Provide meaningful alt text.
+
+If an image fails to load, show an elegant fallback rather than a broken-image icon or empty layout.
+
+Do not use unrelated images of restaurants, offices, or other businesses.
+
+Do not misrepresent stock photography as an actual photograph of Mir Dental Care or its staff.
+
+---
+
+# 26. SEO AND LOCAL SEARCH
+
+Optimize the existing website for its actual business identity.
+
+## Page Title
+
+"Mir Dental Care | Dental Clinic in Gujranwala"
+
+## Meta Description
+
+"Discover Mir Dental Care in Model Town, Gujranwala. View clinic information, explore dental care options, check the Google rating, and inquire about appointments."
+
+## Local Business Information
+
+Use the actual business name, phone number, and address consistently.
+
+Use semantic HTML.
+
+Include a logical heading hierarchy.
+
+Optimize images and loading performance.
+
+Implement appropriate structured data only when the relevant information is verified.
+
+Do not invent opening hours, dentist names, qualifications, treatment prices, or service availability in structured data.
+
+Do not add fabricated ratings or review snippets.
+
+Do not promise guaranteed Google rankings.
+
+---
+
+# 27. ACCESSIBILITY AND PERFORMANCE
+
+Follow modern accessibility and performance practices.
+
+Requirements:
+
+* Semantic HTML.
+* Accessible form labels.
+* Keyboard navigation.
+* Visible focus states.
+* Appropriate contrast.
+* Accessible accordion controls.
+* Accessible mobile navigation.
+* Descriptive link text.
+* Reduced-motion support.
+* Optimized images.
+* Lazy loading where appropriate.
+* Minimal unnecessary JavaScript.
+* No avoidable layout shifts.
+* No avoidable console errors.
+
+Keep the site responsive and performant even when the animation system is active.
+
+---
+
+# 28. FINAL IMPLEMENTATION AND TESTING
+
+Before finishing, inspect the entire existing codebase.
+
+Verify all of the following:
+
+### Branding
+
+* The website consistently displays Mir Dental Care.
+* No DENTORA branding remains.
+* No Portland or Los Angeles location references remain.
+* No fictional American phone numbers remain.
+* No fictional dentist profiles remain.
+* No fabricated business credentials remain.
+
+### Business Information
+
+* Phone number is 0339 3250240.
+* Telephone links use tel:03393250240.
+* WhatsApp uses the correct international number.
+* The address matches the supplied listing.
+* Rating displays 5.0/5.
+* Review count displays 200.
+* Opening information does not claim an unverified weekly schedule.
+
+### User Experience
+
+* Navigation works.
+* Buttons work.
+* Appointment form validates correctly.
+* Contact options work.
+* Google Maps link opens correctly.
+* FAQ accordion works.
+* Mobile navigation works.
+* Animations do not interfere with usability.
+* Responsive layouts do not overflow.
+
+### Data Integrity
+
+* No fake reviews are presented as genuine.
+* No invented prices are displayed.
+* No fictional appointments are shown as confirmed.
+* No unverified doctor credentials are displayed.
+* No unsupported medical promises are made.
+
+### Admin Panel
+
+If an admin dashboard is required:
+
+* Authentication is implemented.
+* Unauthorized access is blocked.
+* Appointment requests can be retrieved.
+* Changes persist through the backend.
+* Secrets are not exposed in frontend code.
+* Empty states work correctly.
+
+### Technical Quality
+
+* The application builds successfully.
+* Existing integrations are preserved.
+* No avoidable console errors remain.
+* No unnecessary dependencies are introduced.
+* Existing functionality is not broken.
+
+---
+
+# FINAL COMMAND
+
+Now transform the existing dental clinic website into the complete Mir Dental Care website described above.
+
+Use the uploaded DENTORA specification as the reference for component organization, visual hierarchy, animations, section structure, and responsive behavior, but replace all fictional DENTORA business information with the supplied Mir Dental Care information.
+
+Maintain the premium dark navy, dental blue, baby blue, and white design system.
+
+Use elegant squircle elements, professional dental photography, carefully designed layouts, smooth animations, and a refined appointment inquiry experience.
+
+Preserve and improve the existing project instead of unnecessarily rebuilding it.
+
+Implement all applicable sections directly in the codebase.
+
+Do not stop after generating the hero section.
+
+Do not leave the remaining sections as placeholders.
+
+Do not merely describe the implementation.
+
+Complete the website, verify its functionality, fix visible issues, and ensure that the final result is polished, responsive, professional, and suitable for demonstrating to the Mir Dental Care client.

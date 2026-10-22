@@ -1,0 +1,6 @@
+{
+  "name": "Mir Dental Care",
+  "description": "Discover Mir Dental Care in Model Town, Gujranwala. View clinic information, explore dental care options, check the Google rating, and inquire about appointments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
